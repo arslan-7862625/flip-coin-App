@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toss App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Toss App</h1>
+
+        <div id="coin">
+            <div class="side-head"></div>
+            <div class="side-tail"></div>
+         </div>
+
+         <div id="btnradio">
+            <label class="custom-radio">
+            <input type="radio" name="option" value="1" id="head">
+            HEAD
+        </label>
+        <label class="custom-radio">
+            <input type="radio" name="option" value="2" id="tail">
+            TAIL
+        </label>
+         </div>
+        <div id="buttons">
+            <button class="btn start" onclick="flipcoin()">
+                Click To Flip Coin</button>
+           
+        </div>
+        <div>
+            <h3 id="wontext"></h3>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
